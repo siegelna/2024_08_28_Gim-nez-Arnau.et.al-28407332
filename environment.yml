@@ -1,0 +1,32 @@
+name: 2024_08_28_Giménez-Arnau.et.al-28407332
+channels:
+ - conda-forge
+ - bioconda
+ - defaults
+dependencies:
+
+   # R packages
+  - r-irkernel  
+  - r-base
+  - r-shinyhelper
+  - r-shiny
+  - r-shinyjs
+  - r-dplyr
+  - r-ggpmisc
+  - r-ggplot2
+  - r-plotly
+  - r-dt
+  - r-openxlsx
+
+
+  # Bioconductor
+  - bioconductor-edger
+  - bioconductor-biomart
+  - bioconductor-geoquery
+  - bioconductor-limma
+  
+  # JupyterLab for running notebooks
+  - jupyterlab
+  
+  # Radian for improved R REPL (optional)
+  - radian
